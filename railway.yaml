@@ -1,0 +1,5 @@
+env: java
+build:
+  env: mvn -DskipTests
+run:
+  env: java -jar out/artifacts/p_market_jar/p-market.jar
